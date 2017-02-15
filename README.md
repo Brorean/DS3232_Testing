@@ -17,7 +17,8 @@ This arduino program can be used to test the DS3231/DS3232 RTC modules commonly 
 # Usage
 
 To send commands the first character is the command key character.
-	 Example: t,17,2,14,20,30,0 would set the time to Feb 14, 2017 20:30:00
+
+	Example: t,17,2,14,20,30,0 would set the time to Feb 14, 2017 20:30:00
 
 To change time send: t,yy,m,d,h,m,s
 	 where yy=year, m=month, d=day, h=hour, m=minutes, s=seconds
