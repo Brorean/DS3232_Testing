@@ -31,23 +31,29 @@ To change alarm type send: m,ALARM_TYPES
 Where ALARM_TYPES can be ALM1_EVERY_SECOND, ALM1_MATCH_SECONDS, ALM1_MATCH_MINUTES, ALM1_MATCH_HOURS (default), ALM1_MATCH_DATE, ALM1_MATCH_DAY, ALM2_EVERY_MINUTE, ALM2_MATCH_MINUTES, ALM2_MATCH_HOURS (default), ALM2_MATCH_DATE, ALM2_MATCH_DAY  
 * Example: m,ALM1_MATCH_SECONDS
 
-To store a byte value (255 or less) into sram send: s,byte
-* Example: s,99
-To store a byte value (255 or less) into a specific sram address (20-255) send: S,byte,addr
-* Example: S,99,20
-To read the value in address (20-255) from sram send: r,addr
-* Example: r,20
+To store a byte value (255 or less) into sram send: s,byte  
+* Example: s,99  
 
-To store a byte value (255 or less) into external eeprom send: e,byte
-* Example: e,99
-To store a byte value (255 or less) into a specific external eeprom address send: E,byte,addr
-* Example: E,99,0
-To read the value in address (0-4096) from external eeprom send: q,addr
-* Example: q,0
+To store a byte value (255 or less) into a specific sram address (20-255) send: S,byte,addr  
+* Example: S,99,20  
 
-To print out all RTC registers send: d
-* Example: d
-To print out all RTC registers and SRAM send: D
-* Example: D
-To print out this message again send: h
-* Example: h
+To read the value in address (20-255) from sram send: r,addr  
+* Example: r,20  
+
+To store a byte value (255 or less) into external eeprom send: e,byte  
+* Example: e,99  
+
+To store a byte value (255 or less) into a specific external eeprom address send: E,byte,addr  
+* Example: E,99,0  
+
+To read the value in address (0-4096) from external eeprom send: q,addr  
+* Example: q,0  
+
+To print out all RTC registers send: d  
+* Example: d  
+
+To print out all RTC registers and SRAM send: D  
+* Example: D  
+
+To print out this message again send: h  
+* Example: h  
